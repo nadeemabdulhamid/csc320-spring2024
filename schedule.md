@@ -105,3 +105,9 @@
 **Thu Apr 18:**
 
 **Tue Apr 23:**
+
+
+---
+### Final Exam
+**Tue Apr 30:** --- EXAM 3 --- (11am - 1pm)
+
