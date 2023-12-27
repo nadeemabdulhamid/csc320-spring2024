@@ -1,0 +1,38 @@
+
+\usepackage[margin=1in]{geometry}		% For setting margins
+\usepackage{amsmath}				% For Math
+\usepackage{fancyhdr}				% For fancy header/footer
+\usepackage{graphicx}				% For including figure/image
+\usepackage{cancel}					% To use the slash to cancel out stuff in work
+
+\usepackage{algorithm,caption}
+\usepackage{algpseudocodex}
+% docs: https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/algpseudocodex/algpseudocodex.pdf
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Set up fancy header/footer
+% taken from https://www.overleaf.com/latex/templates/homework-template/yvgnmrbywwnp
+\makeatletter    % for \@ in \@title
+\pagestyle{fancy}
+\fancyhead[LO,L]{\@author}
+\fancyhead[CO,C]{\@title}
+\fancyhead[RO,R]{\@date}
+\fancyfoot[LO,L]{}
+\fancyfoot[CO,C]{\thepage}
+\fancyfoot[RO,R]{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\makeatother    % restore
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+% from: https://tex.stackexchange.com/questions/14667/does-latex-define-a-semantic-equivalent-of-textbf
+\makeatletter
+\newcommand{\strong}[1]{\@strong{#1}}
+\newcommand{\@@strong}[1]{\textbf{\let\@strong\@@@strong#1}}
+\newcommand{\@@@strong}[1]{\textnormal{\let\@strong\@@strong#1}}
+\let\@strong\@@strong
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%

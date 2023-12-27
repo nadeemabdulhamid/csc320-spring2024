@@ -6,22 +6,37 @@
 
 ---
 ### Weeks 1 - 2: Introduction/Review
+> #### Reading:
+> - [Chapter 0: Introduction](https://jeffe.cs.illinois.edu/teaching/algorithms/book/00-intro.pdf) (Jan 11)
+> - [Appendix I: Proof by Induction](https://jeffe.cs.illinois.edu/teaching/algorithms/notes/98-induction.pdf) (Jan 11)
+> - [Levitin, Chapter 2](#) (Jan 16: 2.1-2.3 | Jan 18: 2.4 - 2.6)
+>
+> #### Optional reading/reference:
+> - [Appendix II: Solving Recurrences](https://jeffe.cs.illinois.edu/teaching/algorithms/notes/99-recurrences.pdf)
+>
+> #### Homework
+> - Homework 1 (due Mon, Jan 15, 10pm): 
+> - Homework 2 (due Mon, Jan 22, 10pm): 
 
-**Tue Jan 9:**
 
-**Thu Jan 11:**
+**Tue Jan 9:** Welcome! Algorithms overview. [Worksheet](./worksheets/worksheet-00.pdf)
 
-**Tue Jan 16:**
+**Thu Jan 11:** Proofs of correctness, induction
 
-**Thu Jan 18:**
+**Tue Jan 16:** Asymptotic notation; Analysis of non-recursive algorithms
+
+**Thu Jan 18:** Recurrence relations; Analysis of recursive algorithms
 
 
 ---
 ### Week 3: Recursion & Backtracking
+> #### Reading:
+> - [Chapter 1: Recursion](https://jeffe.cs.illinois.edu/teaching/algorithms/book/01-recursion.pdf) (Jan 23)
+> - [Chapter 2: Backtracking](https://jeffe.cs.illinois.edu/teaching/algorithms/book/02-backtracking.pdf) (Jan 25)
 
-**Tue Jan 23:**
+**Tue Jan 23:** Sorting & Selection
 
-**Thu Jan 25:**
+**Thu Jan 25:** Subset sum; Text segmentation; LIS
 
 
 ---
