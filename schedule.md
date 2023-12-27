@@ -6,20 +6,22 @@
 
 ---
 ### Weeks 1 - 2: Introduction/Review
+> ---
 > #### Reading:
 > - [Chapter 0: Introduction](https://jeffe.cs.illinois.edu/teaching/algorithms/book/00-intro.pdf) (Jan 11)
 > - [Appendix I: Proof by Induction](https://jeffe.cs.illinois.edu/teaching/algorithms/notes/98-induction.pdf) (Jan 11)
 > - [Levitin, Chapter 2](#) (Jan 16: 2.1-2.3 | Jan 18: 2.4 - 2.6)
 >
 > #### Optional reading/reference:
+> - [MIT OpenCourseWare *Mathematics for Computer Science*](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/), Chapters 1, 2, & 3 (Review of propositions/predicates, proof methods, and ***induction***)
 > - [Appendix II: Solving Recurrences](https://jeffe.cs.illinois.edu/teaching/algorithms/notes/99-recurrences.pdf)
 >
 > #### Homework
 > - Homework 1 (due Mon, Jan 15, 10pm): 
 > - Homework 2 (due Mon, Jan 22, 10pm): 
+> ---
 
-
-**Tue Jan 9:** Welcome! Algorithms overview. [Worksheet](./worksheets/worksheet-00.pdf)
+**Tue Jan 9:** Welcome! Algorithms overview. [Slides](slides/lecture00-intro.pdf); [Worksheet](./worksheets/worksheet-00.pdf)
 
 **Thu Jan 11:** Proofs of correctness, induction
 

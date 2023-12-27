@@ -4,6 +4,8 @@
 \usepackage{fancyhdr}				% For fancy header/footer
 \usepackage{graphicx}				% For including figure/image
 \usepackage{cancel}					% To use the slash to cancel out stuff in work
+\usepackage[shortlabels]{enumitem}
+\usepackage{hyperref}
 
 \usepackage{algorithm,caption}
 \usepackage{algpseudocodex}
@@ -36,3 +38,14 @@
 \let\@strong\@@strong
 \makeatother
 %%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand{\emptybox}[2][\textwidth]{%
+  \begingroup
+  \setlength{\fboxsep}{-\fboxrule}%
+  \noindent\framebox[#1]{\rule{0pt}{#2}}%
+  \endgroup
+}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
