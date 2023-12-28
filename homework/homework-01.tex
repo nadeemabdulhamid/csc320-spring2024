@@ -1,0 +1,48 @@
+\documentclass[12pt]{article}
+	
+\title{CSC 320 - Homework 1}
+\author{}
+\date{Due: January 15, 10pm}
+
+\input{../worksheets/common.tex}
+\renewcommand*\contentsname{Overview}
+
+\begin{document}
+\tableofcontents
+
+\section{Design an Algorithm}
+
+You are given two lists of sorted numbers. Design an algorithm to find all the common elements in the two lists. For example, given \verb+[4, 7, 7, 7]+ and \verb+[4, 4, 6, 7, 7, 9]+, the output should be \verb+[4, 7, 7]+. 
+
+\begin{itemize}
+    \item Describe your algorithm as pseudocode.
+    \item Explain why it works correctly.
+    \item What is the maximum number of comparisons your algorithm makes, in terms of the lengths of the two lists (call them $m$ and $n$, respectively)?
+\end{itemize}
+
+
+\clearpage
+\section{Coin Change}
+
+\subsection*{Part 1}
+Prove that given an unlimited supply of 4-cent coins and 9-cent coins, one can make any amount of change of 32 cents or larger.
+
+\vspace{4in}
+
+\subsection*{Part 2}
+Based on Part 1, describe a recursive algorithm to make change using 4-cent and 9-cent coins for any amount greater than or equal to 32 cents.\\~
+
+    \begin{algorithmic}
+        \Procedure{CoinChange4and9}{$n$}
+        \LComment{Input: an integer $n$; assume $n \geq 32$ \\
+                  Output: a pair of integers $(a, b)$ such that $n = 4a + 9b$.\\}
+
+        \LComment{%Fill this in..
+                  \vspace{1.3in}\\}
+
+        \EndProcedure
+    \end{algorithmic}
+
+
+
+\end{document}

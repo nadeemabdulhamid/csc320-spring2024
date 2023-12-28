@@ -17,13 +17,13 @@
 > - [Appendix II: Solving Recurrences](https://jeffe.cs.illinois.edu/teaching/algorithms/notes/99-recurrences.pdf)
 >
 > #### Homework
-> - Homework 1 (due Mon, Jan 15, 10pm): 
+> - [Homework 1](homework/homework-01.pdf) (due Mon, Jan 15, 10pm)
 > - Homework 2 (due Mon, Jan 22, 10pm): 
 > ---
 
 **Tue Jan 9:** Welcome! Algorithms overview. [Slides](slides/lecture00-intro.pdf); [Worksheet](./worksheets/worksheet-00.pdf)
 
-**Thu Jan 11:** Proofs of correctness, induction
+**Thu Jan 11:** Proofs of correctness, induction. [Worksheet](worksheets/worksheet-01-proofs.pdf)
 
 **Tue Jan 16:** Asymptotic notation; Analysis of non-recursive algorithms
 
