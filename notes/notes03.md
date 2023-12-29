@@ -19,6 +19,8 @@ Solving recurrence relations
  - Intelligent guess [Manber pg 47 = 64]
  - Backward substitution
  - Master Theorem
+ - Recursion tree [erickson ?]
+    https://www.cs.cornell.edu/courses/cs3110/2012sp/lectures/lec20-master/lec20.html
 
 
 Ex. (2.4) 1, 3, 9
