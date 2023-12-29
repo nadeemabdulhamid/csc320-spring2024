@@ -18,16 +18,20 @@
 >
 > #### Homework
 > - [Homework 1](homework/homework-01.pdf) (due Mon, Jan 15, 10pm)
-> - Homework 2 (due Mon, Jan 22, 10pm): 
+> - [Homework 2](homework/homework-02.pdf) (due Mon, Jan 22, 10pm): 
 > ---
 
-**Tue Jan 9:** Welcome! Algorithms overview. [Slides](slides/lecture00-intro.pdf); [Worksheet](./worksheets/worksheet-00.pdf)
+**Tue Jan 9:**<sub>0</sub> 
+Welcome! Algorithms overview. [Slides](slides/lecture00-intro.pdf); [Worksheet](./worksheets/worksheet-00.pdf)
 
-**Thu Jan 11:** Proofs of correctness, induction. [Worksheet](worksheets/worksheet-01-proofs.pdf)
+**Thu Jan 11:**<sub>1</sub> 
+Proofs of correctness, induction. [Worksheet](worksheets/worksheet-01-proofs.pdf)
 
-**Tue Jan 16:** Asymptotic notation; Analysis of non-recursive algorithms
+**Tue Jan 16:**<sub>2</sub> 
+Analysis Framework; Asymptotic notation; Analysis of non-recursive algorithms
 
-**Thu Jan 18:** Recurrence relations; Analysis of recursive algorithms
+**Thu Jan 18:**<sub>3</sub> 
+Recurrence relations; Analysis of recursive algorithms
 
 
 ---
