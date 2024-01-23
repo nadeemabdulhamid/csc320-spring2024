@@ -41,7 +41,7 @@ Recurrence relations; Analysis of recursive algorithms [Worksheet](worksheets/wo
 > - [Chapter 2: Backtracking](https://jeffe.cs.illinois.edu/teaching/algorithms/book/02-backtracking.pdf) (Jan 25)
 
 **Tue Jan 23:**<sub>4</sub>  
-Sorting & Selection
+Sorting & Selection [Worksheet](worksheets/worksheet-04-recursion.pdf)
 
 **Thu Jan 25:**<sub>5</sub>  
 Subset sum; Text segmentation; LIS
