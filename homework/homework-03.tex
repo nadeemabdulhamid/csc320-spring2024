@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+	
+\title{CSC 320 - Homework 3}
+\author{}
+\date{Due: January 29, 10pm}
+
+\input{../worksheets/common.tex}
+\renewcommand*\contentsname{\small Overview}
+
+\begin{document}
+{\small \tableofcontents}
+
+\section{Matrix Determinant (Redo)}
+
+If you did not understand or complete the \textbf{Matrix Determinant} question from Homework 2, you may rewrite and submit an updated solution.
+
+\section{Options}
+
+Choose any 3 (three) of the following to complete. For each that you work on, you should include a discussion of your algorithm itself, a rationale (proof) of the correctness, and evaluate its efficiency. Don't just right pseudocode and formulas -- you need to include text explaining what's going on.
+
+\subsection{Line Up}
+
+Complete Exercise 14(a) (Chapter 1) on pages 51-52 of the textbook.
+
+\subsection{Valley}
+
+Suppose you have an array $A[0..n-1]$ of distinct numbers consisting of a decreasing sequence followed by an increasing sequence. (Either portion could potentially be empty.) That is, there exists an index $k$, where $0 \leq k \leq n-1$, such that $A[i] > A[i+1]$ for all $i < k$, and $A[i] < A[i+1]$ for all $i \geq k$.
+
+\begin{itemize}
+    \item Give an example of such an array with 7 elements where $k = 4$.
+    
+    \item Make a line graph diagram of the values of your array, plotted against the indices of the array on the x axis. What other shapes of a graph are possible?
+
+    \item Describe an algorithm that finds $k$ given such an array $A[0..n-1]$. (\emph{Hint:} think binary search: pick the middle element and compare it to the one after it.)
+    
+    Your algorithm could be either recursive or iterative. Use indices as parameters to keep track of the portion of the array under consideration, rather than slicing up copies of the array in recursive calls.
+
+    \item Prove your algorithm works correctly, or at least provide a well-reasoned explanation.
+
+    \item Analyze the time efficiency of your algorithm.
+\end{itemize}
+
+
+\subsection{Bitonic Array}
+
+Complete Exercise 30 (Chapter 1) on pages 60-61 of the textbook. 
+
+
+\subsection{Median Finding}
+
+Complete Exercise 18 (Chapter 1) on page 53.
+
+
+\subsection{Sorting out Permutations}
+
+You are working for a biotech company that is involved in reordering gene sequences. Given a permutation of bases, $[ b_{i_0}, b_{i_1}, \ldots, b_{i_{n-1}}]$, you need to reorder the bases so that they appear in a desired sorted order, $[b_0, b_1, \ldots, b_{n-1}]$. The only operation that can be performed on the sequence, however, it to cut off a prefix of the sequence, reverse it, and reconnect it.
+
+For example, suppose you have the sequence:
+
+\begin{tabular}{|*{7}{c|}}
+    \hline
+    $b_5$  & $b_3$  & $b_0$ & $b_2$ & $b_1$ & $b_6$ & $b_4$ \\
+    \hline
+  \end{tabular}\\~
+
+You could cut it right between $b_0$ and $b_2$, reverse and reattach it to get:
+
+\begin{tabular}{|*{7}{c|}}
+    \hline
+    $b_0$  & $b_3$  & $b_5$ & $b_2$ & $b_1$ & $b_6$ & $b_4$ \\
+    \hline
+  \end{tabular}\\~
+
+\noindent To simplify the notation, let's just assume you have an list of (distinct) numbers, $A[0..n-1]$, and need to sort it so that for all $i < j$, $A[i] < A[j]$. The only operation you can perform to the list is to reverse some prefix of the list.
+
+Describe an algorithm to sort such a list of numbers using $O(n)$ prefix reversals.
+
+
+
+\end{document}
+
