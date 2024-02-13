@@ -1,0 +1,77 @@
+\documentclass[12pt]{article}
+	
+\title{CSC 320 - Worksheet 6}
+\author{Nadeem Abdul Hamid}
+\date{February 13, 2024}  
+
+\input{common}
+
+\begin{document}
+
+\section{Introduction to Dynamic Programming}
+\subsection{Fibonacci Numbers}
+
+Source code: \url{w06A-fib.pdf}
+
+\begin{itemize}
+    \item Draw the recursive call tree for \verb+fib(5)+ invoked on an instance of the \verb+FibRec+ class.
+    \item How many times does \verb+fib(2)+ occur in the tree?
+    \item Why is \verb+FibRec.fib()+ extremely slow?
+\end{itemize}
+\vspace{3.5in}
+
+\begin{itemize}
+    \item Draw the recursive call tree for \verb+fib(5)+ invoked on an instance of the \verb+FibMemo+ class.
+\end{itemize}
+\vspace{4in}
+
+\clearpage
+
+\verb+FibMemo+ uses an array (``table") to memoize previously computed results. It turns out we can fill the array in directly. Pick a few cells in the following table. For each one, draw an arrow(s) to the cells that its value depends on.
+\vspace{2em}
+
+\begin{minipage}{1.0\textwidth}\centering
+        \begin{tabular}{lllllllllllllll}
+        \hline
+        \multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \hline
+        0                      & 1                     & 2                     & 3                     & 4                     & 5                     & 6                     & 7                     & 8                     & 9                     & 10                    & 11                    & 12                    & 13                    & 14                   
+        \end{tabular}
+\end{minipage}%
+  
+\begin{itemize}
+    \item Trace the execution of \verb+fib(14)+ invoked on an instance of the \verb+FibDP+ class.
+\end{itemize}
+
+\subsection{Text Segmentation}
+Recall:
+
+\vspace{-2em}
+\includegraphics{w05-splittable.pdf}
+\includegraphics{w05-splittable-pc.pdf}
+
+\vspace{2em}
+Pick $i = 5$ (as an example). Which cells of the array $S[0..14]$ does $S[5]$ depend on?
+\vspace{2em}
+
+\begin{minipage}{1.0\textwidth}\centering
+    \begin{tabular}{lllllllllllllll}
+    \hline
+    \multicolumn{1}{|l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \hline
+    0                      & 1                     & 2                     & 3                     & 4                     & 5                     & 6                     & 7                     & 8                     & 9                     & 10                    & 11                    & 12                    & 13                    & 14                   
+    \end{tabular}
+\end{minipage}%
+
+\begin{itemize}
+    \item Write a dynamic programming implementation of \textsc{Splittable}.
+\end{itemize}
+
+\vfill
+
+Review Section 3.4 (page 105) in the textbook. 
+
+
+
+
+\end{document}
+
+
