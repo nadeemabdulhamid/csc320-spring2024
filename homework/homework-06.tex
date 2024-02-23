@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+	
+\title{CSC 320 - Homework 6}
+\author{}
+\date{Due: February 28, 10pm}
+
+\input{../worksheets/common.tex}
+\renewcommand*\contentsname{\small Overview}
+
+\begin{document}
+%{\small \tableofcontents}
+
+For each question, don't just write pseudocode/code with no explanation. You must summarize in English prose the intuition of your algorithm, and also explain why it works correctly.
+
+I encourage you to try solving these completely on your own, just using the textbook and notes from class, but you can use the Internet to research algorithms if you want. In any case, your write up and explanations must be entirely your own words and thoughts. (I highly caution against using ChatGPT and friends because they have no reasoning/logic power behind the text that its algorithm generates.)
+
+
+\section{Equal Subset Sum}
+
+Let $x_1, x_2, \ldots, x_n$ be a set of integers, and let $S = \sum_{i=1}^n x_i$. Design an algorithm to partition the set into two subsets of equal sum, or determine that it is impossible to do so. The algorithm should run in time $O(n S)$. (Hint: Don't over think this; build on what we did in class.)
+
+
+\section{Maximum square submatrix}
+
+Given an $m \times n$ boolean matrix $B$, find its largest square submatrix whose elements are all zeroes. Design a dynamic programming algorithm and indicate its time efficiency. (The algorithm may be useful for, say, finding the largest free square area on a computer screen; or for selecting a construction site.)
+
+
+\section{Stacking Boxes}
+
+We have some boxes numbered 1 to $N$. The dimensions of all boxes are identical but their weights differ. Each box has a weight $W_i$, and a maximum load $L_i$. (You can think of this as having two arrays, \verb+W+ and \verb+L+, where \verb+W[i]+/\verb+L[i]+ is the weight/max load of box \verb+i+).
+
+You need to stack up a subset of the boxes (each box put directly on top of exactly one other box), subject to the following constraints:
+
+\begin{itemize}
+    \item A lower numbered box cannot be put on one with a higher number;
+    \item The total weight of all boxes upon a box should not exceed its maximum load.
+\end{itemize}
+
+Describe an efficient algorithm that finds the maximum number of boxes that can be stacked up according to the above constraints.
+
+~
+
+For example, suppose
+\[ \begin{array}{l}
+    W = [ 19, 7, 5, 6, 1 ] \\
+    L = [ 15, 13, 7, 8, 2 ] 
+\end{array}\]
+
+Then your algorithm should produce 4. 
+
+\end{document}
+
