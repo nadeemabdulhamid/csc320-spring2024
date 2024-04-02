@@ -137,9 +137,7 @@
 
   (for [(group node-groups)]
     (for [(node group)]
-      (if (set-member? seen (neg-sym node))
-          (hash-set! assigns node #t)
-          (hash-set! assigns node #f))
+      (hash-set! assigns node (set-member? seen (neg-sym node)))
       (set-add! seen node)))
 
   assigns)
